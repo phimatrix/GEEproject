@@ -1,8 +1,8 @@
 {
-    "AOI_PATH": "..\\AOI\\AOI_5km.shp",
+    "AOI_PATH": "/content/AOI/AOI_5km.shp",
     "AOI_NAME": "North Qld",
     "PROJECT_TITLE": "Cairns_S2_test",
-    "GEE_USERNAME": "yongjingmao",
+    "GEE_USERNAME": "nrscdeveloper0",
     "EXPORT_INPUT": false,
     "EXPORT_RLR": true,
     "EXPORT_PCA": true,

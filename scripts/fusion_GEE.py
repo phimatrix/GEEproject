@@ -20,7 +20,7 @@ import geopandas as gpd
 import pandas as pd
 import ee
 # ee.Authenticate()
-ee.Initialize()
+ee.Initialize(project="theta-arcana-484116-h7")
 
 #%%
 
@@ -30,7 +30,7 @@ def main():
      Read input and set parameters
     ==============================
     """
-    cfg = json.load(open(r"..\config\Parameters.json", 'r'))
+    cfg = json.load(open(r"/content/config/Parameters.json", 'r'))
     AOI_PATH = cfg["AOI_PATH"]
     AOIs = gpd.read_file(AOI_PATH)
 
